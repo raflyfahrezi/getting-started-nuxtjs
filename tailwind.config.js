@@ -12,6 +12,9 @@ module.exports = {
             textColor: {
                 unique: '#00c58f',
             },
+            gridTemplateRows: {
+                auto: '1fr auto;',
+            },
         },
     },
     variants: {
