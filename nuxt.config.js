@@ -4,7 +4,7 @@ const config = {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'getting-started-nuxtjs',
+        title: 'Getting Started Nuxtjs',
         htmlAttrs: {
             lang: 'en',
         },
