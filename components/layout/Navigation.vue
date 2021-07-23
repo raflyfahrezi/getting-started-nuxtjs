@@ -3,10 +3,10 @@
         <AssetsNuxtLogo class="h-8" />
         <div class="flex">
             <NuxtLink
-                class="ml-1 p-3"
                 v-bind:key="item"
                 v-bind:to="item.url"
                 v-for="item in navigationItem"
+                class="ml-1 p-3 hover:text-unique transition-all duration-500"
             >
                 <p>
                     {{ item.text }}
