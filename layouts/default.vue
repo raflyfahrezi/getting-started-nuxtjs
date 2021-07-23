@@ -1,7 +1,7 @@
 <template>
     <div>
         <LayoutNavigation />
-        <div class="w-full max-w-screen-lg mx-auto bg-gray-200">
+        <div class="w-full max-w-screen-lg mx-auto">
             <Nuxt />
         </div>
         <LayoutFooter />
