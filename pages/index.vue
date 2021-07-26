@@ -4,9 +4,7 @@
             <h1 class="text-5xl font-bold">Welcome to Nuxt.js</h1>
         </div>
         <div>
-            <div v-for="user in users" :key="user.id">
-                {{ user.name }}
-            </div>
+            <Card v-bind:users="users" />
         </div>
     </div>
 </template>
